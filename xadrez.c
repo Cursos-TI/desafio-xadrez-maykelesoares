@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Desafio de Xadrez - MateCheck
-// Nível - Novato
+// Nível - Intermediário;
 
 int main() {
     
@@ -36,9 +36,22 @@ int main() {
    } while (rainha < 8);      
     
     
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+    // movimento do cavalo: duas casas para baixo e uma para a esquerda;
+
+    printf("CAVALO\n");
+
+   // enquanto o valor de cavalo dor menor que 1, ele vai executar o comando do while interno;
+    for (int cavalo = 0; cavalo < 1; cavalo++)
+    {         
+        
+        //até atingir a condição, vai imprimir o texto e incrementar o valor de cavalo
+        while (cavalo < 2)
+        {
+            printf("Baixo\n");
+            cavalo++;
+        }
+        printf("Esquerda\n");
+    }
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
